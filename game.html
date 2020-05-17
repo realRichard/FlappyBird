@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <style>
+        canvas {
+            border: 1px black solid;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        div {
+            width: 50%;
+            margin: 0 auto;
+        }
+        h3 {
+            text-decoration: double;
+            text-align: center;
+        }
+    </style>
+    <!-- tools -->
+    <script src="utils.js"></script>
+    <!-- config -->
+    <script src="config.js"></script>
+    <!-- image basement class -->
+    <script src="game/image.js"></script>
+    <!-- game basement class -->
+    <script src="game/game.js"></script>
+    <!-- scene basement -->
+    <script src="scene/scene.js"></script>
+    <!-- start scene -->
+    <script src="scene/title/start.js"></script>
+    <!-- main scene -->
+    <script src="scene/main/mainScene.js"></script>
+    <!-- entity -->
+    <script src="entity/background.js"></script>
+    <script src="entity/pipe.js"></script>
+    <script src="entity/bird.js"></script>
+    <script src="entity/ground.js"></script>
+</head>
+<body>
+    <div>
+        <h3 class="time"></h3>
+        <canvas id="id-canvas" width="336" height="512"></canvas>
+    </div>
+    <div class="controls">
+    </div>
+<script src="main.js"></script>
+<script src="game/debug.js"></script>
+</body>
+</html>
