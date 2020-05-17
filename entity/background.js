@@ -6,7 +6,7 @@ class Background extends GameImage {
 
     init() {
         this.time = 0
-        this.gap = config['window.fps'] * 5
+        this.gap = config.fps.value * 5
     }
 
     draw() {
